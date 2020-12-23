@@ -4,7 +4,7 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import NavBar from "./NavBar";
 import Cards from "./Cards";
 import CARDS_LIST from "./CardsDetails";
-import Social from './Social';
+import Social from "./Social";
 
 function App() {
   const CardsList = CARDS_LIST.map((product, index) =>(
@@ -22,7 +22,9 @@ function App() {
       <div className="row py-5">
         {CardsList}
       </div>
+        <div className="container"> 
        <Social/>
+     </div>
     </div>
   );
 }

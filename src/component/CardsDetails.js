@@ -16,6 +16,12 @@ const CARDS_LIST = [
     paragraph:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     imgUrl: "https://picsum.photos/id/160/300/180"
+  },
+  {
+    title: "Hello",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    imgUrl: "https://picsum.photos/id/160/300/180"
   }
  
 
